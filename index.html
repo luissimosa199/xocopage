@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xoco</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="navlink">Productos</li>
+          <li class="navlink">Redes</li>
+          <li class="navlink">Contacto</li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <input type="checkbox" id="cart">
+        <label for="cart"><img src="https://img.icons8.com/ios-glyphs/20/FFFFFF/shopping-cart--v1.png"></label>
+      
+        <div class="cartPage cart">
+      
+        <h2>Carrito</h2>
+      
+        <ul class="cartUl">
+        </ul>
+      
+        <span>Total:</span>
+        <span class="htmlTotal">$0</span>
+        <button class="btn cart-proceed">Proceder</button>
+        <button class="btn cart-clean">Vaciar</button>
+        </div>
+        <form class="final-form">
+  <fieldset class="final-form-fieldset">
+    <legend class="final-form-p">Para finalizar<br> ingresa los siguientes datos</legend>
+    <label class="final-form-label" for="nombre">Nombre:</label>
+    <input class="final-form-input" type="text" id="nombre">
+    <label class="final-form-label" for="tlf">Teléfono:</label>
+    <input class="final-form-input" type="text" id="tlf">
+    <label class="final-form-label" for="direccion">Dirección:</label>
+    <input class="final-form-input" type="text" id="direccion">
+    <label class="final-form-label" for="email">Email:</label>
+    <input class="final-form-input" type="text" id="email">
+    <button class="btn final-btn">Finalizar</button>
+    <button class="btn goback-btn">Volver atras</button>
+  </fieldset>
+</form>
+      </div>
+      
+    </header>
+    <section class="sec1">
+      <div class="sec1container">
+        <span class="logo">✰</span>
+        <h1>XOCO</h1>
+        <h2>Chocolatería</h2>
+      </div>
+    </section>
+    <section class="sec2">
+      <div class="carrousel-section">
+        <div class="carrouse__container">
+          <div class="txtframe">
+            <div class="temp template0">
+              <h2 class="sectitle temp__title">Título</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                ipsum.
+              </p>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="temp template1 hidden">
+              <h2 class="sectitle temp__title">Título2</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                ducimus?
+              </p>
+              <p>
+                Lorem ipsum dolor sit voluptate debitis labore eveniet sunt
+                quisquam provident doloremque.
+              </p>
+            </div>
+            <div class="temp template2 hidden">
+              <h2 class="sectitle temp__title">Título3</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                obcaecati?
+              </p>
+            </div>
+          </div>
+          <div class="carrouse__container__img">
+            <img
+              class="img1"
+              src="images/1.jpeg"
+              alt=""
+            />
+
+            <img
+              class="img2 hidden"
+              src="images/2.jpeg"
+              alt=""
+            />
+
+            <img
+              class="img3 hidden"
+              src="images/5.jpeg"
+              alt=""
+            />
+
+            <svg
+              class="carrouse__btn"
+              viewBox="0 0 448 512"
+              width="30"
+              title="angle-double-right"
+            >
+              <path
+                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec3">
+      <h2 class="sectitle">Productos</h2>
+      <div class="cards">
+        <div class="card">
+          <h2 class="product-name">Coloria</h2>
+          <img class="product-img" src="images/cardimg.jpeg" />
+          <p class="product-description">Coloria</p>
+          <span class="product-price">$10</span>
+          <button class="btn addtocart-btn">Agregar al carrito</button>
+        </div>
+        <div class="card">
+          <h2 class="product-name">Nebula</h2>
+          <img class="product-img" src="images/cardimg.jpeg" />
+          <p class="product-description">Nebula</p>
+          <span class="product-price">$20</span>
+          <button class="btn addtocart-btn">Agregar al carrito</button>
+        </div>
+        <div class="card">
+          <h2 class="product-name">Salty</h2>
+          <img class="product-img" src="images/cardimg.jpeg" />
+          <p class="product-description">Salty</p>
+          <span class="product-price">$30</span>
+          <button class="btn addtocart-btn">Agregar al carrito</button>
+        </div>
+        <div class="card">
+          <h2 class="product-name">Tropica</h2>
+          <img class="product-img" src="images/cardimg.jpeg" />
+          <p class="product-description">Tropica</p>
+          <span class="product-price">$15</span>
+          <button class="btn addtocart-btn">Agregar al carrito</button>
+        </div>
+      </div>
+    </section>
+    <section class="sec4">
+        <h2 class="sectitle">Sobre nosotros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas facere praesentium vero fugit quos animi tenetur soluta nisi quo ex?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, sit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem error maiores repudiandae voluptates. Sit, ut.</p>
+    </section>
+    <footer>
+      <div class="redes">
+        <p>Contactanos</p>
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png" alt="Instagram logo"/>
+        <img src="https://img.icons8.com/ios-glyphs/50/ffffff/whatsapp.png" alt="Whatsapp Logo">
+      </div>
+      <p class="signature">Diseño web, Luis Simosa. 2021.</p>
+    </footer>
+  </body>
+</html>
