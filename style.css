@@ -46,6 +46,9 @@ a:hover {
 /* HEADER */
 
 header {
+  position: sticky;
+  top: 0vh;
+  z-index: 100;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -109,6 +112,25 @@ nav > ul {
   transition: ease-in-out 300ms;
   overflow: auto;
   color: black;
+  padding-right: 10px;
+}
+
+.cartPage::-webkit-scrollbar {
+  width: 5px;
+}
+  
+.cartPage::-webkit-scrollbar-track {
+  background: white;
+}
+   
+.cartPage::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  width: 10px;
+  border-radius: 5px;
+}
+   
+.cartPage::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .cart-proceed,
