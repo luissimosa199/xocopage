@@ -33,6 +33,14 @@ p {
   transition: 300ms;
 }
 
+.btn_ok-fx {
+  background-color: #83ff83 !important; 
+}
+
+.btn_danger-fx {
+  background-color: #fa9797 !important;
+}
+
 a {
   text-decoration: none;
   color: inherit;

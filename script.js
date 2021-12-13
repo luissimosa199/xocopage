@@ -67,6 +67,13 @@ cartlabel.addEventListener("click", () => {
 
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
+
+    e.target.classList.add("btn_ok-fx");
+
+    setTimeout(() => {
+      e.target.classList.remove("btn_ok-fx");
+    }, 300);
+
     let name =
       e.target.previousElementSibling.previousElementSibling
         .previousElementSibling.previousElementSibling.textContent;
@@ -217,6 +224,13 @@ finalBtn.addEventListener("click", () => {
 const cartClean = document.querySelector(".cart-clean");
 
 cartClean.addEventListener("click", () => {
+  
+  cartClean.classList.add("btn_danger-fx");
+
+  setTimeout(() => {
+    cartClean.classList.remove("btn_danger-fx");
+  }, 300);
+
   htmlCart.textContent = "";
   totalCart = 0;
   htmlTotal.textContent = `$${totalCart}`;
