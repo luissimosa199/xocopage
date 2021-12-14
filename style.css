@@ -10,10 +10,16 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
+  font-family: 'Playfair Display', serif;
   color: var(--secondary-color);
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
 }
 
 .sectitle {
@@ -34,11 +40,11 @@ p {
 }
 
 .btn_ok-fx {
-  background-color: #83ff83 !important; 
+  background-color: #a7ffa7 !important; 
 }
 
 .btn_danger-fx {
-  background-color: #fa9797 !important;
+  background-color: #ffb0b0 !important;
 }
 
 a {
@@ -266,6 +272,7 @@ section {
 .sec1container > h1 {
   font-size: calc(1em + 5vw);
   letter-spacing: 5px;
+  font-family: 'Playfair Display', serif;
 }
 
 .logo {
